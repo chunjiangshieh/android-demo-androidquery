@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidquery.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" /> -->
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:name="com.androidquery.demo.MainApplication"
+        android:icon="@drawable/launch"
+        android:label="@string/app_name" >
+
+        <!-- <application android:icon="@drawable/launch" android:label="@string/app_name" android:hardwareAccelerated="true"> -->
+        <activity android:name=".IntentListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdhocActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".AdhocActivity2"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".async.AjaxLoadingActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingListActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingList2Activity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingList3Activity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingList4Activity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingListOptionsActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingGridActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingGalleryActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingExpandableListActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingAspectRatioActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageLoadingPageGridActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".image.ImageZoomActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".async.AjaxAuthActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".async.XmlActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity
+            android:name=".async.LocationActivity"
+            android:theme="@style/android:Theme.Light" >
+        </activity>
+        <activity android:name=".async.ServiceActivity" >
+        </activity>
+    </application>
+
+</manifest>
