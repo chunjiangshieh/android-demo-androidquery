@@ -11,10 +11,9 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.AjaxStatus;
 import com.androidquery.util.AQUtility;
 import com.androidquery.util.XmlDom;

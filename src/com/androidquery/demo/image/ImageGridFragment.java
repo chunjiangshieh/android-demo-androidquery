@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.AjaxStatus;
 import com.androidquery.demo.image.ImageLoadingList4Activity.Photo;
 import com.androidquery.util.AQUtility;

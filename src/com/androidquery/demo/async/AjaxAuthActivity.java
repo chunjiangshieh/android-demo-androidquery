@@ -13,7 +13,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.auth.BasicHandle;
 import com.androidquery.auth.FacebookHandle;
 import com.androidquery.auth.GoogleHandle;

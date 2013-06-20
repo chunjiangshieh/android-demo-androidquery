@@ -14,7 +14,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.AjaxStatus;
 
 public class ImageLoadingList3Activity extends ImageLoadingListActivity {

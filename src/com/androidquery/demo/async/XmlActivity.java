@@ -8,7 +8,7 @@ import org.xml.sax.SAXException;
 
 import android.os.Bundle;
 
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.AjaxStatus;
 import com.androidquery.demo.RunSourceActivity;
 import com.androidquery.util.AQUtility;

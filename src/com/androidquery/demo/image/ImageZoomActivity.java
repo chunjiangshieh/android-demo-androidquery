@@ -2,7 +2,7 @@ package com.androidquery.demo.image;
 
 import android.os.Bundle;
 
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.demo.RunSourceActivity;
 
 public class ImageZoomActivity extends RunSourceActivity {

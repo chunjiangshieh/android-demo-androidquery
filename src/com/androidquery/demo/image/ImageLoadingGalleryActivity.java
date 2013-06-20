@@ -19,7 +19,7 @@ import android.widget.ListAdapter;
 import android.widget.SlidingDrawer;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.AjaxStatus;
 import com.androidquery.callback.BitmapAjaxCallback;
 import com.androidquery.demo.RunSourceActivity;

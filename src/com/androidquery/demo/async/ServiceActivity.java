@@ -7,7 +7,7 @@ import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
 
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.AjaxStatus;
 import com.androidquery.demo.RunSourceActivity;
 import com.androidquery.service.MarketService;

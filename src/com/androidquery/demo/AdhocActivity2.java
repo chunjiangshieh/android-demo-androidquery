@@ -3,7 +3,7 @@ package com.androidquery.demo;
 import android.os.Bundle;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.BitmapAjaxCallback;
 import com.androidquery.util.AQUtility;
 

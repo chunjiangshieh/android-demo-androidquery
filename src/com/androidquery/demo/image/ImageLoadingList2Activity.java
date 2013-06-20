@@ -8,8 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
-
+import com.androidquery.demo.R;
 public class ImageLoadingList2Activity extends ImageLoadingListActivity {
 
 	

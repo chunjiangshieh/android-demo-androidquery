@@ -28,7 +28,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.AjaxCallback;
 import com.androidquery.callback.AjaxStatus;
 import com.androidquery.callback.Transformer;

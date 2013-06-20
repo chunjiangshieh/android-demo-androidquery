@@ -3,7 +3,7 @@ package com.androidquery.demo.async;
 import android.location.Location;
 import android.os.Bundle;
 
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.callback.AjaxStatus;
 import com.androidquery.callback.LocationAjaxCallback;
 import com.androidquery.demo.RunSourceActivity;

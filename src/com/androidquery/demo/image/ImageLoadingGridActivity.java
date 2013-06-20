@@ -1,8 +1,9 @@
 package com.androidquery.demo.image;
 
+import com.androidquery.demo.R;
+
 import android.os.Bundle;
 
-import com.androidquery.R;
 
 public class ImageLoadingGridActivity extends ImageLoadingList4Activity {
 

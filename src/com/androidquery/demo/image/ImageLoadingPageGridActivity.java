@@ -1,7 +1,7 @@
 package com.androidquery.demo.image;
 
 import com.androidquery.AQuery;
-import com.androidquery.R;
+import com.androidquery.demo.R;
 import com.androidquery.util.AQUtility;
 
 import android.os.Bundle;
